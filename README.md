@@ -1,2 +1,6 @@
 # c_plus_plus_kernal_overwrite_user_space-
-this is a small poc to show how we can kernel can modify user space in memory 
+Simple proof of concept -code to manipulate the memory of a usermode process from kernelmode of a windows NT
+operating system. This is complished by using the undocumented
+NT API "MmCopyVirtualMemory" function in ntoskrnl.exe.
+
+This works for both x64 & x86 processes.
